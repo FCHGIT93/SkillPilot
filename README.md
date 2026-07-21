@@ -1,25 +1,61 @@
+<p align="center">
+
+<img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white">
+
+<img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+
+<img src="https://img.shields.io/badge/OpenAI-API-412991?style=for-the-badge&logo=openai&logoColor=white">
+
+<img src="https://img.shields.io/badge/PHPMailer-Email-success?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Responsive-Design-blue?style=for-the-badge">
+
+</p>
+
+
 # 🎓 SkillPilot – AI Career Coach
 
-SkillPilot is an AI-powered web platform designed to help students improve their CVs and prepare for internships and entry-level jobs.
+SkillPilot is an AI-powered career coaching web application that analyzes student CVs and provides personalized career insights through intelligent skill gap detection, project recommendations, learning roadmaps, internship suggestions, and interview preparation.
 
-The platform analyzes uploaded CVs using the OpenAI API, identifies missing skills, recommends personalized projects, generates interview questions, creates learning roadmaps, and suggests internship roles based on each student's profile.
+The application combines PHP, MySQL, OpenAI API, and PHPMailer to deliver a secure and interactive career development platform.
 
 ---
 
-# ✨ Features
+# 🚀 Project Highlights
 
-- Secure User Authentication
-- User Registration & Login
-- Forgot Password via Email
-- AI CV Analysis
-- Skills Gap Detection
-- Internship Recommendations
-- Project Recommendations
-- Personalized Learning Roadmap
-- Technical Interview Questions
-- Career Readiness Score
-- Professional Dashboard
-- Responsive Design
+✅ AI-powered CV analysis using OpenAI API
+
+✅ Personalized career readiness assessment
+
+✅ Intelligent missing skills detection
+
+✅ Tailored internship role recommendations
+
+✅ AI-generated project recommendations
+
+✅ Personalized learning roadmap
+
+✅ Technical interview preparation
+
+✅ Secure authentication and password recovery
+
+✅ Responsive dashboard with modern UI
+
+✅ MySQL database with structured career data management
+
+---
+
+# 🎯 Problem Statement
+
+Many students struggle to identify the skills required for internships and entry-level positions. Manual CV reviews are often time-consuming and lack personalized guidance.
+
+SkillPilot addresses this challenge by using AI to analyze student CVs and generate personalized recommendations that help users improve their career readiness.
+
+---
+
+# 💡 Solution
+
+SkillPilot combines Artificial Intelligence with modern web technologies to automate CV analysis and provide students with actionable recommendations, including skill improvement, project suggestions, internship opportunities, learning roadmaps, and interview preparation.
 
 ---
 
@@ -65,6 +101,28 @@ SkillPilot integrates the OpenAI API to provide intelligent recommendations incl
 - VS Code
 
 ---
+## 📸 Application Screenshots
+
+### Sign In
+![SkillPilot Sign In](screenshots/signin.png)
+
+### Sign Up
+![SkillPilot Sign Up](screenshots/signup.png)
+
+### User Dashboard
+![SkillPilot Dashboard](screenshots/dashboard.png)
+
+### CV Upload
+![SkillPilot CV Upload](screenshots/upload_cv.png)
+
+### Generate AI Analyses
+![SkillPilot AI Analyses](screenshots/analyses.png)
+
+### AI Career Analysis Results
+![SkillPilot AI Results](screenshots/results.png)
+
+### Password Recovery
+![SkillPilot Forgot Password](screenshots/forgot_password.png)
 
 # 📂 Project Structure
 
@@ -151,29 +209,31 @@ MAIL_FROM_NAME=SkillPilot
 
 ---
 
-# 🎯 Future Improvements
+# 🔮 Future Roadmap
 
-- Google OAuth Login
-- LinkedIn OAuth Login
-- Notification Center
-- Admin Dashboard
-- CV History
-- Job Recommendation Engine
-- ATS Resume Checker
+- Google OAuth Authentication
+- LinkedIn OAuth Authentication
+- AI-powered ATS Resume Scoring
+- Personalized Job Matching
+- Real-time Notifications
+- Career Progress Tracking
 - Multi-language Support
-
+- Admin Analytics Dashboard
+  
 ---
 
-# 👩‍💻 Developed By
+# 👩‍💻 Author
 
-Fatima Chakaron
+**Fatima Chakaron**
 
 Computer & Communication Engineering Student
 
-Islamic University of Lebanon
+Passionate about AI, Backend Development, and Intelligent Web Applications.
 
+- GitHub: https://github.com/FCHGIT93
+- LinkedIn: https://www.linkedin.com/in/fatima-chakaron-016798349/
 ---
 
 # 📄 License
 
-This project was developed for educational purposes.
+This project showcases practical full-stack web development and AI integration skills through a real-world career coaching platform.
