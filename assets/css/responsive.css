@@ -1,0 +1,198 @@
+/* =========================
+   RESPONSIVE - SKILLPILOT
+   ========================= */
+
+/* Medium laptops */
+@media (max-width: 1200px) {
+    .auth-form-area {
+        right: 5%;
+        width: 440px;
+    }
+
+    .signup-card-clean {
+        width: 850px;
+        padding: 34px 44px 28px;
+    }
+}
+
+/* Small-height laptops */
+@media (max-height: 760px) {
+    .auth-bg {
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .auth-form-area {
+        width: 420px;
+    }
+
+    .signin-card {
+        padding: 28px 30px;
+    }
+
+    .auth-card h2 {
+        font-size: 26px;
+    }
+
+    .input-box {
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        height: 44px;
+    }
+
+    .divider {
+        margin: 16px 0 12px;
+    }
+
+    .social {
+        height: 40px;
+    }
+
+    .signup-page {
+        min-height: 100vh;
+        height: auto;
+        overflow-y: auto;
+        padding: 16px 0;
+    }
+
+    .signup-card-clean {
+        width: 850px;
+        padding: 22px 42px 20px;
+    }
+
+    .brand-small {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .signup-card-clean .icon-circle {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 8px;
+    }
+
+    .signup-card-clean h2 {
+        font-size: 34px;
+    }
+
+    .signup-card-clean .subtitle {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .signup-card-clean .input-box {
+        height: 42px;
+        margin-bottom: 10px;
+    }
+
+    .signup-card-clean .password-rules {
+        padding: 10px 14px;
+        margin-bottom: 10px;
+    }
+
+    .signup-card-clean .password-rules span {
+        font-size: 12px;
+        margin: 3px 0;
+    }
+
+    .signup-card-clean button {
+        height: 46px;
+        font-size: 16px;
+    }
+
+    .signup-card-clean .switch-link {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+    .auth-bg {
+        min-height: 100vh;
+        height: auto;
+        background-size: cover;
+        background-position: left center;
+        padding: 35px 0;
+    }
+
+    .auth-form-area {
+        position: relative;
+        top: auto;
+        right: auto;
+        transform: none;
+        width: 92%;
+        max-width: 430px;
+        margin: 360px auto 30px;
+    }
+
+    .signin-card {
+        padding: 34px 28px;
+    }
+
+    .signup-page {
+        height: auto;
+        min-height: 100vh;
+        overflow: auto;
+        padding: 35px 0;
+    }
+
+    .signup-card-clean {
+        width: 92%;
+        padding: 30px 24px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .signup-card-clean h2 {
+        font-size: 32px;
+    }
+
+    .brand-small {
+        font-size: 26px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 520px) {
+    .auth-form-area {
+        margin-top: 300px;
+        width: 94%;
+    }
+
+    .auth-card h2 {
+        font-size: 26px;
+    }
+
+    .social-buttons {
+        flex-direction: column;
+    }
+
+    .signup-card-clean {
+        width: 94%;
+        padding: 26px 18px;
+        border-radius: 22px;
+    }
+
+    .signup-card-clean h2 {
+        font-size: 28px;
+    }
+
+    .signup-card-clean .subtitle {
+        font-size: 14px;
+    }
+
+    .signup-card-clean .input-box {
+        height: 48px;
+    }
+
+    .signup-card-clean button {
+        height: 52px;
+        font-size: 16px;
+    }
+}

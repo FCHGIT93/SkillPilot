@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Composer
+/vendor/
+
+# Uploaded files
+/uploads/cvs/*
+
+# Keep the folder
+!/uploads/cvs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.cache
+*.lnk
