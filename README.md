@@ -21,16 +21,21 @@ The platform analyzes uploaded CVs using the OpenAI API and provides personalize
 ---
 
 # 📸 Application Screenshots
+### 🔐 Sign In
+
+![SkillPilot Sign In](screenshots/signin.png)
+
+---
+
+### 📝 Sign Up
+
+![SkillPilot Sign Up](screenshots/signup.png)
+
+---
 
 ### 🖥 Dashboard
 
 ![SkillPilot Dashboard](screenshots/dashboard.png)
-
----
-
-### 🤖 AI Career Analysis Results
-
-![SkillPilot AI Results](screenshots/results.png)
 
 ---
 
@@ -46,15 +51,9 @@ The platform analyzes uploaded CVs using the OpenAI API and provides personalize
 
 ---
 
-### 🔐 Sign In
+### 🤖 AI Career Analysis Results
 
-![SkillPilot Sign In](screenshots/signin.png)
-
----
-
-### 📝 Sign Up
-
-![SkillPilot Sign Up](screenshots/signup.png)
+![SkillPilot AI Results](screenshots/results.png)
 
 ---
 
